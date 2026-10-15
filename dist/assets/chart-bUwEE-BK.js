@@ -1,0 +1,1 @@
+import{_ as r,o as s,b as c,e as t}from"./index-B6Yf6lf9.js";const o={},n={class:"size-full flex flex-row justify-center items-center"};function a(l,e){return s(),c("div",n,e[0]||(e[0]=[t("div",{class:"bg-error"},[t("h1",{class:"text-error-content"},"chart")],-1)]))}const i=r(o,[["render",a]]);export{i as default};

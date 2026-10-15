@@ -1,0 +1,31 @@
+{
+	"name": "flow_chart_programming",
+	"private": true,
+	"version": "0.0.0",
+	"type": "module",
+	"imports": {
+		"#css": "./src/assets/styles/style.css",
+		"#cloudflare/*": "./src/cloudflare/*"
+	},
+	"scripts": {
+		"dev": "vite",
+		"build": "vite build",
+		"deploy": "wrangler deploy",
+		"preview": "vite preview"
+	},
+	"dependencies": {
+		"@tailwindcss/postcss": "^4.2.0",
+		"@tailwindcss/vite": "^4.0.13",
+		"hono": "^4.12.32",
+		"postcss": "^8.5.6",
+		"vue": "^3.5.13",
+		"vue-router": "^4.5.0"
+	},
+	"devDependencies": {
+		"@vitejs/plugin-vue": "^5.2.1",
+		"daisyui": "^5.0.3",
+		"gh-pages": "^6.3.0",
+		"tailwindcss": "^4.2.0",
+		"vite": "^6.2.0"
+	}
+}
